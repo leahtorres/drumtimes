@@ -1,0 +1,48 @@
+4.times do
+  sample :drum_heavy_kick
+  sleep 1
+end
+4.times do
+  sample :drum_snare_soft
+  sleep 1
+end
+1.times do
+  sample  :drum_heavy_kick
+  sleep 0.5
+  sample  :drum_snare_soft
+  sleep 0.5
+  sample  :drum_heavy_kick
+  sleep 0.5
+  sample  :drum_snare_soft
+  sleep 0.5
+  sample  :drum_heavy_kick
+  sleep 0.5
+  sample :drum_snare_soft
+  sleep 0.5
+  sample  :drum_heavy_kick
+  sleep 0.5
+  sample :drum_snare_soft
+  sleep 0.5
+  sample  :drum_heavy_kick
+  sleep 0.5
+  sample :drum_snare_soft
+  sleep 0.5
+  
+end
+sample  :drum_heavy_kick
+sleep 0.25
+sample  :drum_snare_soft
+sleep 0.25
+sample  :drum_heavy_kick
+sleep 0.25
+sample  :drum_snare_soft
+sleep 0.25
+sample  :drum_heavy_kick
+sleep 0.25
+sample  :drum_snare_soft
+sleep 0.25
+sample  :drum_heavy_kick
+sleep 0.25
+sample  :drum_snare_soft
+sleep 0.25
+sample :drum_splash_hard, sustain: 10
